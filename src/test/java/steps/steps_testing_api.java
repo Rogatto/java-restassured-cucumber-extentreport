@@ -15,10 +15,10 @@ import static io.restassured.RestAssured.given;
 
 public class steps_testing_api {
 
-        public Response response;
-        public String title;
-        public boolean completed;
-        public int status;
+    public Response response;
+    public String title;
+    public boolean completed;
+    public int status;
 
        @Given("^que estou conectado a internet$")
        public void que_estou_conectado_a_internet() throws Throwable {
